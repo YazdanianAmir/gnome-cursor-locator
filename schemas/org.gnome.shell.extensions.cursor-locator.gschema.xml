@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema
+    id="org.gnome.shell.extensions.cursor-locator@yazdanianamir.github.io"
+    path="/org/gnome/shell/extensions/cursor-locator/">
+
+    <key name="shortcut" type="as">
+      <default>['&lt;Ctrl&gt;&lt;Alt&gt;space']</default>
+    </key>
+
+    <key name="duration-ms" type="i">
+      <default>700</default>
+    </key>
+
+    <key name="radius" type="i">
+      <default>200</default>
+    </key>
+
+    <key name="enable-jiggle-detection" type="b">
+      <default>false</default>
+    </key>
+
+  </schema>
+</schemalist>

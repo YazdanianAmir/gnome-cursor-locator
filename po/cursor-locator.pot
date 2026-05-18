@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-18 07:56+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/prefs.ts:29
+msgid "Cursor Locator"
+msgstr ""
+
+#: src/prefs.ts:44
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#: src/prefs.ts:71
+msgid "Animation Duration"
+msgstr ""
+
+#: src/prefs.ts:92
+msgid "Spotlight Radius"
+msgstr ""
+
+#: src/prefs.ts:113
+msgid "Enable Jiggle Detection"
+msgstr ""
+
+#: src/prefs.ts:114
+msgid "Automatically show the locator when the mouse is jiggled."
+msgstr ""
+
+#: src/prefs.ts:129
+msgid "Reset Settings"
+msgstr ""
+
+#: src/prefs.ts:130
+msgid ""
+"Restore shortcut, animation duration, spotlight radius, and jiggle detection."
+msgstr ""
+
+#: src/prefs.ts:134
+msgid "Reset"
+msgstr ""
+
+#: src/prefs.ts:156
+msgid "Press a new shortcut, Backspace to disable, or Escape to cancel."
+msgstr ""

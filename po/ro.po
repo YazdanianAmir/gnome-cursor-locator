@@ -1,0 +1,65 @@
+# Romanian translations for PACKAGE package
+# Traducerea în limba română pentru pachetul PACKAGE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Amir Yazdanian <amiryazdanian@fedora>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-18 07:56+0300\n"
+"PO-Revision-Date: 2026-05-18 07:56+0300\n"
+"Last-Translator: Amir Yazdanian <amiryazdanian@fedora>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#: src/prefs.ts:29
+msgid "Cursor Locator"
+msgstr "Localizator Cursor"
+
+#: src/prefs.ts:44
+msgid "Keyboard Shortcut"
+msgstr "Scurtătură de Tastatură"
+
+#: src/prefs.ts:71
+msgid "Animation Duration"
+msgstr "Durata Animației"
+
+#: src/prefs.ts:92
+msgid "Spotlight Radius"
+msgstr "Raza Reflectorului"
+
+#: src/prefs.ts:113
+msgid "Enable Jiggle Detection"
+msgstr "Activează Detectarea Mișcării"
+
+#: src/prefs.ts:114
+msgid "Automatically show the locator when the mouse is jiggled."
+msgstr "Afișează automat localizatorul când mouse-ul este mișcat rapid."
+
+#: src/prefs.ts:129
+msgid "Reset Settings"
+msgstr "Resetează Setările"
+
+#: src/prefs.ts:130
+msgid ""
+"Restore shortcut, animation duration, spotlight radius, and jiggle detection."
+msgstr ""
+"Restabilește scurtătura, durata animației, raza reflectorului și detectarea "
+"mișcării."
+
+#: src/prefs.ts:134
+msgid "Reset"
+msgstr "Resetează"
+
+#: src/prefs.ts:156
+msgid "Press a new shortcut, Backspace to disable, or Escape to cancel."
+msgstr ""
+"Apăsați o nouă scurtătură, Backspace pentru dezactivare sau Escape pentru "
+"anulare."

@@ -1,0 +1,12 @@
+{
+  "uuid": "cursor-locator@yazdanianamir.github.io",
+  "name": "Cursor Locator",
+  "description": "Locate the cursor with a spotlight effect.",
+  "version": 1,
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.cursor-locator@yazdanianamir.github.io",
+  "gettext-domain": "cursor-locator@yazdanianamir.github.io",
+  "url": "https://github.com/yazdanianamir/cursor-locator"
+}

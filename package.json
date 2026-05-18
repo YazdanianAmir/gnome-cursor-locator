@@ -1,0 +1,29 @@
+
+{
+  "name": "cursor-locator-extension",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "GNOME Shell extension to quickly locate the cursor with a spotlight effect",
+  "main": "dist/extension.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src",
+    "test": "npm run lint && tsc --noEmit",
+
+    "deploy": "./scripts/deploy.sh",
+
+    "devkit": "dbus-run-session -- gnome-shell --devkit",
+    "dev": "npm run deploy && npm run devkit",
+
+    "check": "npm run test && npm run build",
+
+    "package": "./scripts/package_release.sh"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@girs/gjs": "^4.0.0-rc.15",
+    "@girs/gnome-shell": "^50.0.0",
+    "typescript": "^6.0.3"
+  }
+}
