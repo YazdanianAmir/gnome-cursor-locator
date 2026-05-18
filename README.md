@@ -222,7 +222,7 @@ xgettext \
   --from-code=UTF-8 \
   --language=JavaScript \
   --keyword=_ \
-  --output=po/cursor-locator.pot \
+  --output=po/cursor-locator@yazdanianamir.github.io.pot \
   src/*.ts metadata.json
 ```
 
@@ -233,7 +233,7 @@ Example Romanian translation:
 ```bash
 msginit \
   --locale=ro_RO.UTF-8 \
-  --input=po/cursor-locator.pot \
+  --input=po/cursor-locator@yazdanianamir.github.io.pot \
   --output=po/ro.po
 ```
 
@@ -244,7 +244,7 @@ mkdir -p locale/ro/LC_MESSAGES
 
 msgfmt \
   po/ro.po \
-  -o locale/ro/LC_MESSAGES/cursor-locator.mo
+  -o locale/ro/LC_MESSAGES/cursor-locator@yazdanianamir.github.io.mo
 ```
 
 ---

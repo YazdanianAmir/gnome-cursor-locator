@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-18 07:56+0300\n"
-"PO-Revision-Date: 2026-05-18 07:56+0300\n"
+"POT-Creation-Date: 2026-05-18 08:03+0300\n"
+"PO-Revision-Date: 2026-05-18 08:50+0300\n"
 "Last-Translator: Amir Yazdanian <amiryazdanian@fedora>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -21,45 +21,41 @@ msgstr ""
 
 #: src/prefs.ts:29
 msgid "Cursor Locator"
-msgstr "Localizator Cursor"
+msgstr ""
 
 #: src/prefs.ts:44
 msgid "Keyboard Shortcut"
-msgstr "Scurtătură de Tastatură"
+msgstr ""
 
 #: src/prefs.ts:71
 msgid "Animation Duration"
-msgstr "Durata Animației"
+msgstr ""
 
 #: src/prefs.ts:92
 msgid "Spotlight Radius"
-msgstr "Raza Reflectorului"
+msgstr ""
 
 #: src/prefs.ts:113
 msgid "Enable Jiggle Detection"
-msgstr "Activează Detectarea Mișcării"
+msgstr ""
 
 #: src/prefs.ts:114
 msgid "Automatically show the locator when the mouse is jiggled."
-msgstr "Afișează automat localizatorul când mouse-ul este mișcat rapid."
+msgstr ""
 
 #: src/prefs.ts:129
 msgid "Reset Settings"
-msgstr "Resetează Setările"
+msgstr ""
 
 #: src/prefs.ts:130
 msgid ""
 "Restore shortcut, animation duration, spotlight radius, and jiggle detection."
 msgstr ""
-"Restabilește scurtătura, durata animației, raza reflectorului și detectarea "
-"mișcării."
 
 #: src/prefs.ts:134
 msgid "Reset"
-msgstr "Resetează"
+msgstr ""
 
 #: src/prefs.ts:156
 msgid "Press a new shortcut, Backspace to disable, or Escape to cancel."
 msgstr ""
-"Apăsați o nouă scurtătură, Backspace pentru dezactivare sau Escape pentru "
-"anulare."
