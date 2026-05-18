@@ -155,6 +155,7 @@ export class CursorLocatorOverlay {
 
         GLib.Source.remove(this.jigglePollId);
         this.jigglePollId = 0;
+        this.resetJiggleWindow(GLib.get_monotonic_time());
     }
 
     private cacheSettings() {
@@ -251,12 +252,14 @@ export class CursorLocatorOverlay {
         if (now < this.jiggleCooldownUntil)
             return;
 
+        const [x, y] = global.get_pointer();
+
         if (this.isVisible()) {
+            this.lastPointerX = x;
+            this.lastPointerY = y;
             this.resetJiggleWindow(now);
             return;
         }
-
-        const [x, y] = global.get_pointer();
 
         const dx = x - this.lastPointerX;
         const dy = y - this.lastPointerY;
